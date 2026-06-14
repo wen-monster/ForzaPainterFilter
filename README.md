@@ -3,11 +3,15 @@
 
 基本操作：
 1、点 Open 选择生成的JSON文件，左侧显示拟合图像，右侧为图层筛选参数；
+![](https://github.com/wen-monster/ForzaPainterFilter/blob/main/image/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-06-14%20011511.png?raw=true)
 2、直接点击图像，会选中点击位置最顶层图层，筛选参数不生效；
 3、按 x 进入多边形框选模式，左键添加拐点绘制多边形，双击左键结束绘制，右键删除绘制中的多边形，选中中心在多边形内的图层，
 可调节参数，反选图层、限制选中图层生成顺序范围、限制选中图层大小范围，
 再次按 x 退出多边形框选模式，绘制的多边形和选中的图层均会取消；
+![](https://github.com/wen-monster/ForzaPainterFilter/blob/main/image/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-06-14%20011552.png?raw=true)
+![](https://github.com/wen-monster/ForzaPainterFilter/blob/main/image/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-06-14%20011645.png?raw=true)
 4、选中图层黄色高亮，按 delete 删除，支持 Ctrl+Z 撤销和 Ctrl+Shift+Z 重做；
+![](https://github.com/wen-monster/ForzaPainterFilter/blob/main/image/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-06-14%20011749.png?raw=true)
 5、点 Save 将处理结果保存回JSON文件，可被原文件生成程序正常打开。
 
 To address the common lack of attention mechanisms in basic graphics matching photos projects for Forza:Horizon, which waste excessive layers on non-critical areas such as backgrounds, this interactive layer selection and deletion tool has been developed.
